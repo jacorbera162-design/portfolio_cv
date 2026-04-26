@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Antonio Corbera | CV</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="cv-container">
+        <!-- COLUMNA IZQUIERDA AZUL -->
+        <aside class="sidebar">
+            <div class="foto-cv">
+                <img src="{{ url_for('static', filename='jose.jpg') }}" alt="José Antonio Corbera">
+            </div>
+
+            <section class="sidebar-section">
+                <h2><i class="fas fa-address-book"></i> CONTACTO</h2>
+                <ul>
+                    <li><i class="fas fa-phone"></i> 9581444043</li>
+                    <li><i class="fas fa-envelope"></i> jacorbera1986@outlook.com</li>
+                    <li><i class="fab fa-linkedin"></i> <a
+                            href="https://linkedin.com/in/jose-antonio-corbera-gallardo-b9666b264"
+                            target="_blank">LinkedIn</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> Santa María Huatulco, 70980</li>
+                    <li><i class="fab fa-github"></i> <a href="https://github.com/corbera86"
+                            target="_blank">github.com/corbera86</a></li>
+                </ul>
+            </section>
+
+            <section class="sidebar-section">
+                <h2><i class="fas fa-graduation-cap"></i> EDUCACIÓN</h2>
+                <div class="edu-item">
+                    <span class="fecha">2017 - 2021</span>
+                    <h3>Licenciatura En Informática</h3>
+                    <p>Instituto Superior Huatulco</p>
+                </div>
+                <div class="edu-item">
+                    <span class="fecha">2001 - 2004</span>
+                    <h3>Físico Matemático</h3>
+                    <p>Bachillerato CBTA No.37</p>
+                </div>
+            </section>
+
+            <section class="sidebar-section">
+                <h2><i class="fas fa-language"></i> IDIOMAS</h2>
+                <p>Español - Nativo</p>
+                <p>Inglés - Básico</p>
+            </section>
+
+            <section class="sidebar-section">
+                <h2><i class="fas fa-user-check"></i>APTITUDES</h2>
+                <ul class="aptitudes-list">
+                    <li>Resolución de Problemas</li>
+                    <li>Desarrollo de Software</li>
+                    <li>Trabajo en Equipo</li>
+                    <li>Comunicación</li>
+                    <li>Comprometido</li>
+                    <li>Analisis de Sistemas</li>
+                </ul>
+            </section>
+
+            <section class="sidebar-section">
+                <h2><i class="fas fa-cogs"></i> CONOCIMIENTOS</h2>
+                <ul class="aptitudes-list">
+                    <li>Java, PHP</li>
+                    <li>Html5, Css3, JavaScript</li>
+                    <li>Angular, Node.js</li>
+                    <li>Laravel, Bootstrap, Composer</li>
+                    <li>Python, Django, Flask</li>
+                    <li>MySQL, MariaDB, SQL Server, Oracle</li>
+                    <li>MongoDB</li>
+                    <li>Git</li>
+                    <li>Linux, Windows</li>
+                    <li>Visual Studio Code, Eclipse, Xampp</li>
+                    <li>Termux</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Desarrollo de Software</li>
+                </ul>
+            </section>
+        </aside>
+
+        <!-- COLUMNA DERECHA BLANCA -->
+        <main class="main-content">
+            <header class="main-header">
+                <h1>JOSE ANTONIO CORBERA GALLARDO</h1>
+                <h2 class="subtitulo">DESARROLLADOR JR</h2>
+                <div class="franja">PASANTE DE LICENCIATURA EN INFORMÁTICA</div>
+                <a href="{{ url_for('static', filename='CV_JOSE_ANTONIO_CORBERA_GALLARDO.pdf') }}" class="btn-descargar" download>
+                    <i class="fas fa-download"></i> Descargar CV PDF
+                </a>
+            </header>
+
+            <section class="content-section">
+                <h2>RESUMEN PROFESIONAL</h2>
+                <ul>
+                    <li>Estudiante de informática con gran interés en acceder al mercado laboral para poner en práctica
+                        mis conocimientos. Soy una persona trabajadora, comunicativa y comprometida.</li>
+                    <li>Especialista en ingeniería de sistemas detallista y eficaz con más de 1 año de experiencia.
+                        Excelentes habilidades para el diseño de programas y soluciones informáticas que satisfagan las
+                        necesidades de la empresa y los clientes.</li>
+                    <li>Analista de software diligente y eficaz, con ganas de seguir aprendiendo. Sólida experiencia en
+                        el análisis de programas para la detección y resolución de fallas, e implementación de mejoras.
+                    </li>
+                </ul>
+            </section>
+
+            <section class="content-section">
+                <h2>HISTORIA LABORAL</h2>
+
+                <!-- CHAMBA 1: ENE-FEB 2026 -->
+                <div class="trabajo">
+                    <h3>Centro de Investigación en Ciencias de Información Geoespacial, A.C.</h3>
+                    <p class="puesto">Proyecto SIGIC - Sistema Integral de Gestión de Información Científica</p>
+                    <p class="puesto"><strong>DESARROLLADOR JR</strong></p>
+                    <span class="fecha">Enero 2026 - Febrero 2026</span>
+                    <ul>
+                        <li>Corrección de errores en la lógica de extensiones de vigencias dentro del sistema.</li>
+                        <li>Ajuste en el manejo y formato de fechas para la exportación de información a Excel.</li>
+                        <li>Análisis, seguimiento y resolución de incidencias reportadas en HGS.</li>
+                        <li>Reproducción de errores y validación de funcionalidades en ambiente local.</li>
+                        <li>Desarrollo de scripts para automatización y apoyo en la inserción de información.</li>
+                    </ul>
+                </div>
+
+                <!-- CHAMBA 2: JUN-DIC 2025 -->
+                <div class="trabajo">
+                    <h3>Centro de Investigación en Ciencias de Información Geoespacial, A.C.</h3>
+                    <p class="puesto">Proyecto SIGIC - Sistema Integral de Gestión de Información Científica</p>
+                    <p class="puesto"><strong>DESARROLLADOR JR</strong></p>
+                    <span class="fecha">Junio 2025 - Diciembre 2025</span>
+                    <ul>
+                        <li>Contribuí como desarrollador web front-end y back-end en la implementación de algunos
+                            módulos en el sistema web APERION para usuario del SNII para realizar el proceso de
+                            diferentes tipos de evaluación.</li>
+                        <li>Contribuí en la inserción de información en la base de datos de diversas informaciones por
+                            medio de scripts.</li>
+                        <li>Atención y resolución de incidencias relacionadas con los sistemas operativos de Aperion,
+                            específicamente en el manejo de HGS, garantizando la continuidad y eficiencia del servicio.
+                        </li>
+                        <li>Desarrollé servicios para la generación de documentos PDF, utilizados para la emisión de
+                            resultados y documentación del sistema.</li>
+                        <li>Implementé reportes en formato Excel, facilitando el análisis y seguimiento de información
+                            administrativa y de evaluación.</li>
+                        <li>Elaboré scripts en Python para la automatización de tareas, procesamiento de datos e
+                            inserción de información en bases de datos.</li>
+                    </ul>
+                </div>
+
+                <!-- CHAMBA 3: OCT 2024 - MAR 2025 -->
+                <div class="trabajo">
+                    <h3>CONAHCYT</h3>
+                    <p class="puesto"><strong>DESARROLLADOR JR</strong></p>
+                    <span class="fecha">Octubre 2024 - Marzo 2025</span>
+                    <ul>
+                        <li>Contribuí como desarrollador web front-end y back-end en la implementación de algunos
+                            módulos en el sistema web APERION para usuario del SNII para realizar el proceso de
+                            diferentes tipos de evaluación.</li>
+                        <li>Contribuí en la inserción de información en la base de datos de diversas informaciones por
+                            medio de scripts.</li>
+                        <li>Atención y resolución de incidencias relacionadas con los sistemas operativos de Aperion,
+                            específicamente en el manejo de HGS, garantizando la continuidad y eficiencia del servicio.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- CHAMBA 4: MAY-SEP 2024 -->
+                <div class="trabajo">
+                    <h3>CONAHCYT</h3>
+                    <p class="puesto"><strong>DOCUMENTADOR</strong></p>
+                    <span class="fecha">Mayo 2024 - Septiembre 2024</span>
+                    <ul>
+                        <li>Contribuí como desarrollador web front-end y back-end en la implementación de algunos
+                            módulos en el sistema web APERION para usuario del SNII para realizar el proceso de
+                            diferentes tipos de evaluación.</li>
+                        <li>Contribuí en la inserción de información en la base de datos de diversas informaciones por
+                            medio de scripts.</li>
+                    </ul>
+                </div>
+
+                <!-- CHAMBA 5: 2023-2024 -->
+                <div class="trabajo">
+                    <h3>Grg Hong Kong Mexico</h3>
+                    <p class="puesto"><strong>INGENIERO DE CAMPO</strong></p>
+                    <span class="fecha">2023 - 2024</span>
+                    <ul>
+                        <li>Punto a puntos, configuración y dotación de ATM.</li>
+                        <li>Mantenimiento técnico, preventivo y día a día en Hardware del ATM.</li>
+                        <li>Migraciones de Windows a los diversos ATM.</li>
+                        <li>Ponchados de cables de ethernet para la comunicación de ATM.</li>
+                        <li>Ejecución de comando por CMD para hacer diversos trabajos de software en ATM.</li>
+                        <li>Redacción de tickets de reportes y evidencias de los mantenimientos de los ATM en el sistema
+                            de MX iSERVICE.</li>
+                        <li>Atención y seguimientos a los problemas de la JC o del banco.</li>
+                        <li>Soluciones en problemas de comunicación y multivendo al estar en mantenimiento de ATM.</li>
+                    </ul>
+                </div>
+
+                <!-- CHAMBA 6: 2022 -->
+                <div class="trabajo">
+                    <h3>Super Chedraui S.A. de C.V.</h3>
+                    <p class="puesto"><strong>JEFE DE SISTEMAS</strong></p>
+                    <span class="fecha">2022 - 2022</span>
+                    <ul>
+                        <li>Caminatas de los equipos de la tienda para reportarlo a mesa de ayuda si están en
+                            funcionamiento o tienen algún problema.</li>
+                        <li>Mantenimiento correctivo de puntos de ventas y cajas de cobro como preventivo y correctivo.
+                        </li>
+                        <li>Configuración de IP de todo los equipos que se ocupan en tienda.</li>
+                        <li>Ponchados de cables UTP para internet y de datos.</li>
+                        <li>Reportes a mesa de ayuda de cualquier incidencia de los equipos que se ocupen en la tienda.
+                        </li>
+                        <li>Mantenimiento de básculas colgantes y darles cargas por medio de la terminal de POS.</li>
+                        <li>Atención telefónica y gestión de correos electrónicos.</li>
+                        <li>Mantenimiento del orden y la limpieza en el lugar de trabajo.</li>
+                    </ul>
+                </div>
+
+                <!-- CHAMBA 7: 2022 -->
+                <div class="trabajo">
+                    <h3>Elementos Conceptual S.A. DE C.V. (Grupo Salinas)</h3>
+                    <p class="puesto"><strong>DESARROLLADOR BACKEND</strong></p>
+                    <span class="fecha">2022 - 2022</span>
+                    <ul>
+                        <li>Levantamiento de requerimientos para el desarrollo de un nuevo proyecto.</li>
+                        <li>Levantamiento de requerimiento de la base de datos del proyecto con Oracle.</li>
+                        <li>Elaboración de tareas diarias en Jira como se van haciendo los avancé del proyecto.</li>
+                        <li>Reuniones de Scrum para dar seguimiento de la aplicación o proyecto con los integrantes y
+                            jefes.</li>
+                    </ul>
+                </div>
+
+                <!-- CHAMBA 8: 2006-2022 - LA MÁS VIEJA PERO MÁS LARGA -->
+                <div class="trabajo">
+                    <h3>Fonatur Infraestructura S.A. de C.V.</h3>
+                    <p class="puesto"><strong>JEFE DE GRUPO "B"</strong></p>
+                    <span class="fecha">2006 - 2022</span>
+                    <ul>
+                        <li>Inventarios de arrendamientos de cómputos y teléfonos.</li>
+                        <li>Implementación del sistema de gestión de la calidad basado de las normas ISO 9001, ISO 14001
+                            y OHSAS 18001.</li>
+                        <li>Implementación para certificación de EARTH CHECK.</li>
+                        <li>Pedir tickets con mesa de ayuda para verificar las incidencias en el sistema contable
+                            si@con.</li>
+                        <li>Manejo de sistema contable de si@con.</li>
+                        <li>Mantenimiento correctivo y preventivo de las computadoras e impresoras.</li>
+                        <li>Mantenimiento del orden y la limpieza en el lugar de trabajo.</li>
+                        <li>Preparación y empaquetado de pedidos.</li>
+                    </ul>
+                </div>
+                <section class="sidebar-section">
+                    <h2><i class="fas fa-graduation-cap"></i> FORMACIÓN</h2>
+                    <p>Carta pasante y constancia de estudios: Pasante de Licenciatura En Informática 2021 Instituto
+                        Superior Huatulco (REU)- Santa Cruz Huatulco.</p>
+                </section>
+
+            </section>
+
+            <section class="content-section">
+                <h2>PROYECTOS DESTACADOS</h2>
+                <div class="proyectos-grid">
+                    <div class="proyecto-card">
+                        <h3>Sistema APERION - SNII/CONAHCYT</h3>
+                        <p>Desarrollo de módulos full-stack para evaluación de investigadores del SNII. Generación de
+                            PDFs, reportes Excel y automatización con Python.</p>
+                        <div class="tech-tags">
+                            <span>PHP</span><span>Laravel</span><span>Python</span><span>Oracle</span><span>MySQL</span>
+                        </div>
+                    </div>
+                    <div class="proyecto-card">
+                        <h3>HUATULCO BEACHS - Proyecto Freelance</h3>
+                        <p>Página web publicitaria "HUATULCO BEACHS" (JIMDO). Es una página web que nos brinda
+                            información de las playas y bahías de Huatulco como también de los restaurantes y hoteles
+                            más conocidos los cuales se puede visitar.</p>
+                        <div class="tech-tags">
+                            <span>HTML5</span><span>CSS3</span><span>Jimdo</span><span>SEO</span>
+                        </div>
+                        <a href="https://huatulco-beachs.jimdosite.com/" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Ver Proyecto
+                        </a>
+                    </div>
+                    <div class="proyecto-card">
+                        <h3>Portafolio Web Flask</h3>
+                        <p>Este sitio web. Desarrollado desde Termux en Android. Responsive y desplegado localmente con
+                            Flask.</p>
+                        <div class="tech-tags">
+                            <span>Flask</span><span>HTML5</span><span>CSS3</span><span>Termux</span><span>Git</span>
+                        </div>
+                        <a href="https://github.com/corbera86" target="_blank">
+                            <i class="fab fa-github"></i> Ver Código
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
